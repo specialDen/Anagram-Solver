@@ -11,26 +11,30 @@
 		B619190A298E95E700BD6333 /* SearchResultsTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */; };
 		B619190C298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B619190B298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift */; };
 		B61D70EA298EFC6300C0AD10 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70E9298EFC6300C0AD10 /* Entity.swift */; };
-		B61D70EC298F06CD00C0AD10 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70EB298F06CD00C0AD10 /* Interactor.swift */; };
-		B61D70EE298F06F600C0AD10 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70ED298F06F600C0AD10 /* Assembly.swift */; };
-		B61D70F1298F07FE00C0AD10 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70F0298F07FE00C0AD10 /* Presenter.swift */; };
+		B61D70EC298F06CD00C0AD10 /* AnagramSolverInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70EB298F06CD00C0AD10 /* AnagramSolverInteractor.swift */; };
+		B61D70EE298F06F600C0AD10 /* AnagramSolverAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70ED298F06F600C0AD10 /* AnagramSolverAssembly.swift */; };
+		B61D70F1298F07FE00C0AD10 /* AnagramSolverPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70F0298F07FE00C0AD10 /* AnagramSolverPresenter.swift */; };
 		B61D70F3298F7BFC00C0AD10 /* AnagramSolverRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70F2298F7BFC00C0AD10 /* AnagramSolverRouter.swift */; };
 		B61D70F5298F891300C0AD10 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70F4298F891300C0AD10 /* AppInteractor.swift */; };
 		B61D70F7298F895700C0AD10 /* AppCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70F6298F895700C0AD10 /* AppCordinator.swift */; };
 		B678F786298BE91300E1771C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F785298BE91300E1771C /* AppDelegate.swift */; };
 		B678F788298BE91300E1771C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F787298BE91300E1771C /* SceneDelegate.swift */; };
-		B678F78A298BE91300E1771C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F789298BE91300E1771C /* ViewController.swift */; };
+		B678F78A298BE91300E1771C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F789298BE91300E1771C /* HomeViewController.swift */; };
 		B678F78F298BE91500E1771C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B678F78E298BE91500E1771C /* Assets.xcassets */; };
 		B678F792298BE91500E1771C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B678F790298BE91500E1771C /* LaunchScreen.storyboard */; };
 		B678F79A298BE9CF00E1771C /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F799298BE9CF00E1771C /* NetworkServices.swift */; };
 		B678F79C298BEA2300E1771C /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F79B298BEA2300E1771C /* EndPoints.swift */; };
 		B6980975299429E6002FCCCF /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6980974299429E6002FCCCF /* StringExtensions.swift */; };
-		B698097829942C20002FCCCF /* RussianAnagramSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097729942C20002FCCCF /* RussianAnagramSolver.swift */; };
+		B698097829942C20002FCCCF /* AnagramSolverBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097729942C20002FCCCF /* AnagramSolverBrain.swift */; };
 		B698097B2994470D002FCCCF /* LanguageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097A2994470D002FCCCF /* LanguageButton.swift */; };
 		B698097D2994540C002FCCCF /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097C2994540C002FCCCF /* UIViewExtensions.swift */; };
 		B698097F299470ED002FCCCF /* LangOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097E299470ED002FCCCF /* LangOptionButton.swift */; };
 		B6980981299482E5002FCCCF /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6980980299482E5002FCCCF /* ArrayExtensions.swift */; };
-		B698098329950E66002FCCCF /* myJsonDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098229950E66002FCCCF /* myJsonDict.json */; };
+		B698098329950E66002FCCCF /* myRussianJSONDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098229950E66002FCCCF /* myRussianJSONDict.json */; };
+		B698098529953208002FCCCF /* myGermanJsonDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098429953208002FCCCF /* myGermanJsonDict.json */; };
+		B6980987299545E3002FCCCF /* LanguagesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6980986299545E3002FCCCF /* LanguagesEnum.swift */; };
+		B698098929954E47002FCCCF /* myFrenchJSONDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098829954E47002FCCCF /* myFrenchJSONDict.json */; };
+		B698098B299556AE002FCCCF /* mySpanishJSONDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098A299556AE002FCCCF /* mySpanishJSONDict.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,28 +42,32 @@
 		B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewManager.swift; sourceTree = "<group>"; };
 		B619190B298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
 		B61D70E9298EFC6300C0AD10 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		B61D70EB298F06CD00C0AD10 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
-		B61D70ED298F06F600C0AD10 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
-		B61D70F0298F07FE00C0AD10 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		B61D70EB298F06CD00C0AD10 /* AnagramSolverInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramSolverInteractor.swift; sourceTree = "<group>"; };
+		B61D70ED298F06F600C0AD10 /* AnagramSolverAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramSolverAssembly.swift; sourceTree = "<group>"; };
+		B61D70F0298F07FE00C0AD10 /* AnagramSolverPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramSolverPresenter.swift; sourceTree = "<group>"; };
 		B61D70F2298F7BFC00C0AD10 /* AnagramSolverRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramSolverRouter.swift; sourceTree = "<group>"; };
 		B61D70F4298F891300C0AD10 /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		B61D70F6298F895700C0AD10 /* AppCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCordinator.swift; sourceTree = "<group>"; };
 		B678F782298BE91300E1771C /* Anagram Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anagram Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B678F785298BE91300E1771C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B678F787298BE91300E1771C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B678F789298BE91300E1771C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B678F789298BE91300E1771C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B678F78E298BE91500E1771C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B678F791298BE91500E1771C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B678F793298BE91500E1771C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B678F799298BE9CF00E1771C /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
 		B678F79B298BEA2300E1771C /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		B6980974299429E6002FCCCF /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		B698097729942C20002FCCCF /* RussianAnagramSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianAnagramSolver.swift; sourceTree = "<group>"; };
+		B698097729942C20002FCCCF /* AnagramSolverBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramSolverBrain.swift; sourceTree = "<group>"; };
 		B698097A2994470D002FCCCF /* LanguageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageButton.swift; sourceTree = "<group>"; };
 		B698097C2994540C002FCCCF /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		B698097E299470ED002FCCCF /* LangOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangOptionButton.swift; sourceTree = "<group>"; };
 		B6980980299482E5002FCCCF /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
-		B698098229950E66002FCCCF /* myJsonDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myJsonDict.json; sourceTree = "<group>"; };
+		B698098229950E66002FCCCF /* myRussianJSONDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myRussianJSONDict.json; sourceTree = "<group>"; };
+		B698098429953208002FCCCF /* myGermanJsonDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myGermanJsonDict.json; sourceTree = "<group>"; };
+		B6980986299545E3002FCCCF /* LanguagesEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesEnum.swift; sourceTree = "<group>"; };
+		B698098829954E47002FCCCF /* myFrenchJSONDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myFrenchJSONDict.json; sourceTree = "<group>"; };
+		B698098A299556AE002FCCCF /* mySpanishJSONDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mySpanishJSONDict.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +84,9 @@
 		B61D70EF298F07DE00C0AD10 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B678F789298BE91300E1771C /* ViewController.swift */,
-				B698097A2994470D002FCCCF /* LanguageButton.swift */,
+				B678F789298BE91300E1771C /* HomeViewController.swift */,
 				B6191907298E68DC00BD6333 /* SearchViewController.swift */,
+				B698097A2994470D002FCCCF /* LanguageButton.swift */,
 				B698097E299470ED002FCCCF /* LangOptionButton.swift */,
 				B619190B298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift */,
 			);
@@ -107,17 +115,20 @@
 				B6FB24E1299060B50065CE6F /* App */,
 				B61D70EF298F07DE00C0AD10 /* Views */,
 				B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */,
-				B61D70EB298F06CD00C0AD10 /* Interactor.swift */,
-				B61D70F0298F07FE00C0AD10 /* Presenter.swift */,
+				B698098C29955DD1002FCCCF /* Interactor */,
+				B698098D29955DE5002FCCCF /* Presenters */,
 				B698097929942C51002FCCCF /* Entities */,
-				B61D70F2298F7BFC00C0AD10 /* AnagramSolverRouter.swift */,
-				B61D70ED298F06F600C0AD10 /* Assembly.swift */,
+				B698098E29955DFE002FCCCF /* Routers */,
+				B61D70ED298F06F600C0AD10 /* AnagramSolverAssembly.swift */,
 				B6980976299429F2002FCCCF /* Extensions */,
 				B678F79D298BEEB600E1771C /* NetworkServices */,
 				B678F78E298BE91500E1771C /* Assets.xcassets */,
 				B678F790298BE91500E1771C /* LaunchScreen.storyboard */,
 				B678F793298BE91500E1771C /* Info.plist */,
-				B698098229950E66002FCCCF /* myJsonDict.json */,
+				B698098229950E66002FCCCF /* myRussianJSONDict.json */,
+				B698098429953208002FCCCF /* myGermanJsonDict.json */,
+				B698098829954E47002FCCCF /* myFrenchJSONDict.json */,
+				B698098A299556AE002FCCCF /* mySpanishJSONDict.json */,
 			);
 			path = "Anagram Solver";
 			sourceTree = "<group>";
@@ -145,9 +156,34 @@
 			isa = PBXGroup;
 			children = (
 				B61D70E9298EFC6300C0AD10 /* Entity.swift */,
-				B698097729942C20002FCCCF /* RussianAnagramSolver.swift */,
+				B6980986299545E3002FCCCF /* LanguagesEnum.swift */,
+				B698097729942C20002FCCCF /* AnagramSolverBrain.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		B698098C29955DD1002FCCCF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B61D70EB298F06CD00C0AD10 /* AnagramSolverInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B698098D29955DE5002FCCCF /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				B61D70F0298F07FE00C0AD10 /* AnagramSolverPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		B698098E29955DFE002FCCCF /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				B61D70F2298F7BFC00C0AD10 /* AnagramSolverRouter.swift */,
+			);
+			path = Routers;
 			sourceTree = "<group>";
 		};
 		B6FB24E1299060B50065CE6F /* App */ = {
@@ -221,7 +257,10 @@
 			files = (
 				B678F792298BE91500E1771C /* LaunchScreen.storyboard in Resources */,
 				B678F78F298BE91500E1771C /* Assets.xcassets in Resources */,
-				B698098329950E66002FCCCF /* myJsonDict.json in Resources */,
+				B698098329950E66002FCCCF /* myRussianJSONDict.json in Resources */,
+				B698098929954E47002FCCCF /* myFrenchJSONDict.json in Resources */,
+				B698098B299556AE002FCCCF /* mySpanishJSONDict.json in Resources */,
+				B698098529953208002FCCCF /* myGermanJsonDict.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,18 +273,19 @@
 			files = (
 				B61D70F7298F895700C0AD10 /* AppCordinator.swift in Sources */,
 				B6191908298E68DC00BD6333 /* SearchViewController.swift in Sources */,
-				B698097829942C20002FCCCF /* RussianAnagramSolver.swift in Sources */,
-				B678F78A298BE91300E1771C /* ViewController.swift in Sources */,
+				B698097829942C20002FCCCF /* AnagramSolverBrain.swift in Sources */,
+				B678F78A298BE91300E1771C /* HomeViewController.swift in Sources */,
 				B698097F299470ED002FCCCF /* LangOptionButton.swift in Sources */,
 				B619190A298E95E700BD6333 /* SearchResultsTableViewManager.swift in Sources */,
-				B61D70EE298F06F600C0AD10 /* Assembly.swift in Sources */,
+				B6980987299545E3002FCCCF /* LanguagesEnum.swift in Sources */,
+				B61D70EE298F06F600C0AD10 /* AnagramSolverAssembly.swift in Sources */,
 				B619190C298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift in Sources */,
 				B678F79C298BEA2300E1771C /* EndPoints.swift in Sources */,
 				B61D70F3298F7BFC00C0AD10 /* AnagramSolverRouter.swift in Sources */,
 				B6980975299429E6002FCCCF /* StringExtensions.swift in Sources */,
 				B698097D2994540C002FCCCF /* UIViewExtensions.swift in Sources */,
-				B61D70F1298F07FE00C0AD10 /* Presenter.swift in Sources */,
-				B61D70EC298F06CD00C0AD10 /* Interactor.swift in Sources */,
+				B61D70F1298F07FE00C0AD10 /* AnagramSolverPresenter.swift in Sources */,
+				B61D70EC298F06CD00C0AD10 /* AnagramSolverInteractor.swift in Sources */,
 				B61D70EA298EFC6300C0AD10 /* Entity.swift in Sources */,
 				B698097B2994470D002FCCCF /* LanguageButton.swift in Sources */,
 				B6980981299482E5002FCCCF /* ArrayExtensions.swift in Sources */,

@@ -66,7 +66,6 @@ extension SearchResultsTableViewManager: UITableViewDataSource {
         for index in 1..<wordlist[indexPath.section].words.count {
             wordString = wordString + ", " + wordlist[indexPath.section].words[index]
         }
-//        cell.accessoryType = .
         cell.textLabel?.text = wordString
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.font = UIFont(name: "Hoefler Text", size: 17)

@@ -79,6 +79,7 @@ class SearchViewController:UIViewController {
         addSubviews()
         setFramesAndConstraints()
         presenter?.tableViewManager?.setUpTableView(tableView: tableView)
+        searchBarTextField.placeholder = language.searchBarPlaceholderText
     }
     private func addSubviews(){
         view.addSubview(searchBarView)

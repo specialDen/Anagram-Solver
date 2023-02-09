@@ -18,7 +18,7 @@ extension String {
     }
     
     func unorderedContains(string: Self) -> Bool {
-        guard self.count > string.count else {return false}
+        guard self.count >= string.count else {return false}
         guard !self.contains(string) else {return true}
         var dictArray = Array(self)
 //        let searchArray = Array(string)
