@@ -24,6 +24,13 @@
 		B678F792298BE91500E1771C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B678F790298BE91500E1771C /* LaunchScreen.storyboard */; };
 		B678F79A298BE9CF00E1771C /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F799298BE9CF00E1771C /* NetworkServices.swift */; };
 		B678F79C298BEA2300E1771C /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F79B298BEA2300E1771C /* EndPoints.swift */; };
+		B6980975299429E6002FCCCF /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6980974299429E6002FCCCF /* StringExtensions.swift */; };
+		B698097829942C20002FCCCF /* RussianAnagramSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097729942C20002FCCCF /* RussianAnagramSolver.swift */; };
+		B698097B2994470D002FCCCF /* LanguageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097A2994470D002FCCCF /* LanguageButton.swift */; };
+		B698097D2994540C002FCCCF /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097C2994540C002FCCCF /* UIViewExtensions.swift */; };
+		B698097F299470ED002FCCCF /* LangOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097E299470ED002FCCCF /* LangOptionButton.swift */; };
+		B6980981299482E5002FCCCF /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6980980299482E5002FCCCF /* ArrayExtensions.swift */; };
+		B698098329950E66002FCCCF /* myJsonDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098229950E66002FCCCF /* myJsonDict.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +53,13 @@
 		B678F793298BE91500E1771C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B678F799298BE9CF00E1771C /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
 		B678F79B298BEA2300E1771C /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		B6980974299429E6002FCCCF /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		B698097729942C20002FCCCF /* RussianAnagramSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianAnagramSolver.swift; sourceTree = "<group>"; };
+		B698097A2994470D002FCCCF /* LanguageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageButton.swift; sourceTree = "<group>"; };
+		B698097C2994540C002FCCCF /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		B698097E299470ED002FCCCF /* LangOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangOptionButton.swift; sourceTree = "<group>"; };
+		B6980980299482E5002FCCCF /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		B698098229950E66002FCCCF /* myJsonDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myJsonDict.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				B678F789298BE91300E1771C /* ViewController.swift */,
+				B698097A2994470D002FCCCF /* LanguageButton.swift */,
 				B6191907298E68DC00BD6333 /* SearchViewController.swift */,
+				B698097E299470ED002FCCCF /* LangOptionButton.swift */,
 				B619190B298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift */,
 			);
 			path = Views;
@@ -93,13 +109,15 @@
 				B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */,
 				B61D70EB298F06CD00C0AD10 /* Interactor.swift */,
 				B61D70F0298F07FE00C0AD10 /* Presenter.swift */,
-				B61D70E9298EFC6300C0AD10 /* Entity.swift */,
+				B698097929942C51002FCCCF /* Entities */,
 				B61D70F2298F7BFC00C0AD10 /* AnagramSolverRouter.swift */,
 				B61D70ED298F06F600C0AD10 /* Assembly.swift */,
+				B6980976299429F2002FCCCF /* Extensions */,
 				B678F79D298BEEB600E1771C /* NetworkServices */,
 				B678F78E298BE91500E1771C /* Assets.xcassets */,
 				B678F790298BE91500E1771C /* LaunchScreen.storyboard */,
 				B678F793298BE91500E1771C /* Info.plist */,
+				B698098229950E66002FCCCF /* myJsonDict.json */,
 			);
 			path = "Anagram Solver";
 			sourceTree = "<group>";
@@ -111,6 +129,25 @@
 				B678F79B298BEA2300E1771C /* EndPoints.swift */,
 			);
 			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		B6980976299429F2002FCCCF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6980974299429E6002FCCCF /* StringExtensions.swift */,
+				B6980980299482E5002FCCCF /* ArrayExtensions.swift */,
+				B698097C2994540C002FCCCF /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B698097929942C51002FCCCF /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B61D70E9298EFC6300C0AD10 /* Entity.swift */,
+				B698097729942C20002FCCCF /* RussianAnagramSolver.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		B6FB24E1299060B50065CE6F /* App */ = {
@@ -184,6 +221,7 @@
 			files = (
 				B678F792298BE91500E1771C /* LaunchScreen.storyboard in Resources */,
 				B678F78F298BE91500E1771C /* Assets.xcassets in Resources */,
+				B698098329950E66002FCCCF /* myJsonDict.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,15 +234,21 @@
 			files = (
 				B61D70F7298F895700C0AD10 /* AppCordinator.swift in Sources */,
 				B6191908298E68DC00BD6333 /* SearchViewController.swift in Sources */,
+				B698097829942C20002FCCCF /* RussianAnagramSolver.swift in Sources */,
 				B678F78A298BE91300E1771C /* ViewController.swift in Sources */,
+				B698097F299470ED002FCCCF /* LangOptionButton.swift in Sources */,
 				B619190A298E95E700BD6333 /* SearchResultsTableViewManager.swift in Sources */,
 				B61D70EE298F06F600C0AD10 /* Assembly.swift in Sources */,
 				B619190C298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift in Sources */,
 				B678F79C298BEA2300E1771C /* EndPoints.swift in Sources */,
 				B61D70F3298F7BFC00C0AD10 /* AnagramSolverRouter.swift in Sources */,
+				B6980975299429E6002FCCCF /* StringExtensions.swift in Sources */,
+				B698097D2994540C002FCCCF /* UIViewExtensions.swift in Sources */,
 				B61D70F1298F07FE00C0AD10 /* Presenter.swift in Sources */,
 				B61D70EC298F06CD00C0AD10 /* Interactor.swift in Sources */,
 				B61D70EA298EFC6300C0AD10 /* Entity.swift in Sources */,
+				B698097B2994470D002FCCCF /* LanguageButton.swift in Sources */,
+				B6980981299482E5002FCCCF /* ArrayExtensions.swift in Sources */,
 				B61D70F5298F891300C0AD10 /* AppInteractor.swift in Sources */,
 				B678F786298BE91300E1771C /* AppDelegate.swift in Sources */,
 				B678F79A298BE9CF00E1771C /* NetworkServices.swift in Sources */,

@@ -8,13 +8,13 @@
 import UIKit
 
 protocol AnagramSolverRouterProtocol{
-    func presentSearchScreen(presentingVC: UIViewController, viewController: UIViewController)
+    func presentSearchScreen(presentingVC: UIViewController, language: LanguagesEnum)
 }
 
 final class AnagramSolverRouter: AnagramSolverRouterProtocol{
     
-    func presentSearchScreen(presentingVC: UIViewController, viewController: UIViewController) {
-        let searchVC = AnagramAssembly.createSearchScreen()
+    func presentSearchScreen(presentingVC: UIViewController, language: LanguagesEnum) {
+        let searchVC = AnagramAssembly.createSearchScreen(withLanguage: language)
         searchVC.modalPresentationStyle = .fullScreen
         
         presentingVC.present(searchVC, animated: true)

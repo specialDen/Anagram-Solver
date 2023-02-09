@@ -9,11 +9,12 @@ import UIKit
 
 class SearchViewController:UIViewController {
     var presenter: AnagramSolverPresenterProtocol?
-    
+    var language: LanguagesEnum = .english
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpUI()
 //        presenter = AnagramSolverPresenter()
+        
         backButton.addTarget(self, action: #selector(didTapBack), for: .touchUpInside)
         searchButton.addTarget(self, action: #selector(didTapClear), for: .touchUpInside)
         searchBarTextField.becomeFirstResponder()
@@ -37,7 +38,7 @@ class SearchViewController:UIViewController {
         let view = UIView(frame: .zero)
         view.layer.cornerRadius = 12
         view.layer.borderWidth = 1.5
-        view.layer.backgroundColor = UIColor.systemGray3.cgColor
+        view.layer.backgroundColor = UIColor.systemFill.cgColor
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -46,7 +47,6 @@ class SearchViewController:UIViewController {
         let button = UIButton(frame: .zero)
         button.setImage(UIImage(systemName: "arrow.backward"), for: .normal)
         button.tintColor = .systemGray
-//        button.imageView?.image = UIImage(systemName: "arrow.backward")
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -55,13 +55,13 @@ class SearchViewController:UIViewController {
         let button = UIButton(frame: .zero)
         button.setImage(UIImage(systemName: "xmark.circle"), for: .normal)
         button.tintColor = .systemGray
-//        button.imageView?.image =
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private let tableView: UITableView = {
         let table = UITableView(frame: .zero)
+        table.backgroundColor = .systemBackground
         table.translatesAutoresizingMaskIntoConstraints = false
         return table
     }()
@@ -75,6 +75,7 @@ class SearchViewController:UIViewController {
     }
     
     private func setUpUI() {
+        view.backgroundColor = .systemBackground
         addSubviews()
         setFramesAndConstraints()
         presenter?.tableViewManager?.setUpTableView(tableView: tableView)
@@ -99,7 +100,10 @@ class SearchViewController:UIViewController {
                                      backButton.topAnchor.constraint(equalTo: searchBarView.topAnchor,constant: 5),
                                      backButton.bottomAnchor.constraint(equalTo: searchBarView.bottomAnchor,constant: -5)]
         
-        let searchBarTextFieldConstraints = [searchBarTextField.topAnchor.constraint(equalTo: searchBarView.topAnchor), searchBarTextField.bottomAnchor.constraint(equalTo: searchBarView.bottomAnchor), searchBarTextField.leftAnchor.constraint(equalTo: backButton.rightAnchor, constant: 14), searchBarTextField.rightAnchor.constraint(equalTo: searchButton.leftAnchor,constant: -14)]
+        let searchBarTextFieldConstraints = [searchBarTextField.topAnchor.constraint(equalTo: searchBarView.topAnchor),
+                                             searchBarTextField.bottomAnchor.constraint(equalTo: searchBarView.bottomAnchor),
+                                             searchBarTextField.leftAnchor.constraint(equalTo: backButton.rightAnchor, constant: 14),
+                                             searchBarTextField.rightAnchor.constraint(equalTo: searchButton.leftAnchor,constant: -14)]
         
         let searchButtonConstraints = [searchButton.rightAnchor.constraint(equalTo: searchBarView.rightAnchor, constant: -10),
                                        searchButton.widthAnchor.constraint(equalToConstant: 22),

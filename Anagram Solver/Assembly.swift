@@ -20,7 +20,7 @@ struct AnagramAssembly {
         return homePageVC
     }
     
-    static func createSearchScreen()-> UIViewController {
+    static func createSearchScreen(withLanguage language: LanguagesEnum)-> UIViewController {
         let interactor = AnagramSolverInteractor()
         let apiManager = NetworkService<AnagramSolverEndPoint>()
         let presenter = AnagramSolverPresenter()
@@ -34,10 +34,11 @@ struct AnagramAssembly {
         
         presenter.interactor = interactor
         presenter.router = router
-        presenter.searchVC = searchVC
+//        presenter.searchVC = searchVC
         presenter.tableViewManager = tableviewManager
         
         searchVC.presenter = presenter
+        searchVC.language = language
         
         return searchVC
     }

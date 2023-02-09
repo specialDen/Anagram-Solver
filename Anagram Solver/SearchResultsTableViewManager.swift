@@ -66,15 +66,21 @@ extension SearchResultsTableViewManager: UITableViewDataSource {
         for index in 1..<wordlist[indexPath.section].words.count {
             wordString = wordString + ", " + wordlist[indexPath.section].words[index]
         }
+//        cell.accessoryType = .
         cell.textLabel?.text = wordString
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.font = UIFont(name: "Hoefler Text", size: 17)
         return cell
     }
-    
-//    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//
-//    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+    }
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        25
+    }
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        0
+    }
 //    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 //        100
 //    }
