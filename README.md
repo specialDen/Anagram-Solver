@@ -3,8 +3,8 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Setup](#Setup)
+* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Status](#status)
@@ -13,7 +13,9 @@
 ## General info
 Anagram Solver is an app that finds the possible words(Anagrams) that can be formed from the user provided search word. It's a great tool for solving anagram games.
 
-## Setup
+
+## Setup:
+
 No setup required. Ready for use.
 
 
@@ -21,12 +23,14 @@ No setup required. Ready for use.
 
 | Light Mode             |  Dark Mode |
 :-------------------------:|:-------------------------:
-![Example-Screenshot1](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_1.png)  |  ![Example-Screenshot3](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_2.png)
-![Example-Screenshot3](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_3.png)  |  ![Example-Screenshot4](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_4.png)
+<img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolverScreenshot_1.png"  width="50%" height="50%">  |  <img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolverScreenshot_2.png"  width="50%" height="50%">
+<img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolverScreenshot_3.png"  width="50%" height="50%">  |  <img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolverScreenshot_4.png"  width="50%" height="50%">
 
-![Example-Movie1](./Anagram_Solver/ReadmeFiles/AnagramSolver_1.gif)
-![Example-Movie1](./Anagram_Solver/ReadmeFiles/AnagramSolver_1.gif)
-
+<p align="center">
+<img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolver_1.gif"  width="25%" height="25%" />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolver_2.gif"  width="25%" height="25%" />
+</p>
 
 ## Technologies
 * Xcode 14.0
@@ -53,4 +57,4 @@ To-do list:
 Project is: _in progress_
 
 ## Contact
-Created by [@specialDen]- feel free to contact me!
+Created by [@specialDen](https://github.com/specialDen)- feel free to contact me!
