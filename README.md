@@ -22,12 +22,11 @@ No setup required. Ready for use.
 
 | Light Mode             |  Dark Mode |
 :-------------------------:|:-------------------------:
-![Example-Movie1](./MovieApp/Readme/movieApp_movie1.gif)
-![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolverScreenshot_1.png)  |  ![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolverScreenshot_2.png)
-![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolverScreenshot_3.png)  |  ![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolverScreenshot_4.png)
+![Example-Screenshot1](./AnagramSolver/ReadmeFiles/AnagramSolverScreenshot_1.png)  |  ![Example-Screenshot3](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_2.png)
+![Example-Screenshot3](./AnagramSolver/ReadmeFiles/AnagramSolverScreenshot_3.png)  |  ![Example-Screenshot4](./AnagramSolver/ReadmeFiles/AnagramSolverScreenshot_4.png)
 
-![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolver_1.gif)
-![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolver_1.gif)
+![Example-Movie1](./AnagramSolver/ReadmeFiles/AnagramSolver_1.gif)
+![Example-Movie2](./AnagramSolver/ReadmeFiles/AnagramSolver_1.gif)
 
 
 ## Technologies
@@ -55,4 +54,4 @@ To-do list:
 Project is: _in progress_
 
 ## Contact
-Created by [@specialDen]- feel free to contact me!
+Created by [@specialDen](https://github.com/specialDen)- feel free to contact me!

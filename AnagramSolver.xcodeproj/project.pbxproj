@@ -63,7 +63,7 @@
 		B61D70F2298F7BFC00C0AD10 /* AnagramSolverRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramSolverRouter.swift; sourceTree = "<group>"; };
 		B61D70F4298F891300C0AD10 /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		B61D70F6298F895700C0AD10 /* AppCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCordinator.swift; sourceTree = "<group>"; };
-		B678F782298BE91300E1771C /* Anagram Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anagram Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B678F782298BE91300E1771C /* AnagramSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnagramSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B678F785298BE91300E1771C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B678F787298BE91300E1771C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B678F789298BE91300E1771C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		B678F783298BE91300E1771C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B678F782298BE91300E1771C /* Anagram Solver.app */,
+				B678F782298BE91300E1771C /* AnagramSolver.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -240,9 +240,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B678F781298BE91300E1771C /* Anagram Solver */ = {
+		B678F781298BE91300E1771C /* AnagramSolver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B678F796298BE91500E1771C /* Build configuration list for PBXNativeTarget "Anagram Solver" */;
+			buildConfigurationList = B678F796298BE91500E1771C /* Build configuration list for PBXNativeTarget "AnagramSolver" */;
 			buildPhases = (
 				B678F77E298BE91300E1771C /* Sources */,
 				B678F77F298BE91300E1771C /* Frameworks */,
@@ -252,9 +252,9 @@
 			);
 			dependencies = (
 			);
-			name = "Anagram Solver";
+			name = AnagramSolver;
 			productName = "Anagram Solver";
-			productReference = B678F782298BE91300E1771C /* Anagram Solver.app */;
+			productReference = B678F782298BE91300E1771C /* AnagramSolver.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -272,7 +272,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B678F77D298BE91300E1771C /* Build configuration list for PBXProject "Anagram Solver" */;
+			buildConfigurationList = B678F77D298BE91300E1771C /* Build configuration list for PBXProject "AnagramSolver" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -285,7 +285,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B678F781298BE91300E1771C /* Anagram Solver */,
+				B678F781298BE91300E1771C /* AnagramSolver */,
 			);
 		};
 /* End PBXProject section */
@@ -529,7 +529,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B678F77D298BE91300E1771C /* Build configuration list for PBXProject "Anagram Solver" */ = {
+		B678F77D298BE91300E1771C /* Build configuration list for PBXProject "AnagramSolver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B678F794298BE91500E1771C /* Debug */,
@@ -538,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B678F796298BE91500E1771C /* Build configuration list for PBXNativeTarget "Anagram Solver" */ = {
+		B678F796298BE91500E1771C /* Build configuration list for PBXNativeTarget "AnagramSolver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B678F797298BE91500E1771C /* Debug */,
