@@ -86,7 +86,7 @@ class LangOptionButton: UIButton {
 
         languageTitlelabel.frame = CGRect(x: 0, y: 0, width: width, height: height)
         iconImageView.frame = CGRect(x: width, y: 0, width: width, height: height)
-        listIconImageView.frame = CGRect(x: 2.3*width, y: 0.3*height, width: width*0.6, height: 0.5*height)
+        listIconImageView.frame = CGRect(x: 2.1*width, y: 0.3*height, width: width*0.6, height: 0.5*height)
         
     }
     

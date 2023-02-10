@@ -36,7 +36,6 @@ class HomeViewController: UIViewController {
         let view = UIView(frame: .zero)
         view.layer.cornerRadius = 12
         view.layer.borderWidth = 0
-//        view.layer.backgroundColor = AppColors.searchBarColor?.cgColor
         view.backgroundColor = AppColors.searchBarColor
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
@@ -49,7 +48,6 @@ class HomeViewController: UIViewController {
         button.setTitleColor(AppColors.searchBarPlaceholderColor, for: .normal)
         button.titleLabel?.font = UIFont(name: "Chalkduster", size: 17)
         button.titleLabel?.textAlignment = .right
-//        button.layer.backgroundColor = AppColors.searchBarColor?.cgColor
         button.backgroundColor = .clear
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
@@ -71,7 +69,6 @@ class HomeViewController: UIViewController {
         imageView.image = UIImage(systemName: "magnifyingglass")
         imageView.image?.withTintColor(.systemGray5)
         imageView.tintColor = AppColors.searchBarPlaceholderColor
-//        imageView.layer.backgroundColor = AppColors.searchBarColor?.cgColor
         imageView.backgroundColor = .clear
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
@@ -80,8 +77,8 @@ class HomeViewController: UIViewController {
     
     private let languageSelectButton: LangOptionButton = {
         let button = LangOptionButton(withViewModel: .english)
-        button.tintColor = AppColors.searchBarPlaceholderColor
-        button.languageTitlelabel.textColor = AppColors.searchBarPlaceholderColor
+        button.tintColor = AppColors.languageSelectColor
+        button.languageTitlelabel.textColor = AppColors.languageSelectColor
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -125,7 +122,6 @@ class HomeViewController: UIViewController {
     
     private lazy var buttonStackView: UIStackView = {
         let stack = [englishButton, russianButton, frenchButton, spanishButton, germanButton, italianButton].toStackView(orientation: .horizontal, distribution: .fillEqually, spacing: 0)
-//        stack.backgroundColor = .systemGray
         stack.isHidden = true
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.layer.borderWidth = 1.5

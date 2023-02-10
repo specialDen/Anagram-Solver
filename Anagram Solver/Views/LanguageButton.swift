@@ -53,6 +53,7 @@ class LanguageButton: UIButton {
     let languageTitlelabel: UILabel = {
         let label = UILabel(frame: .zero)
         label.font = .boldSystemFont(ofSize: 15)
+        label.textColor = AppColors.languageSelectColor
         label.textAlignment = .center
         return label
     }()

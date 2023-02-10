@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60F4DE82996D8040038D934 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B60F4DE72996D8040038D934 /* README.md */; };
 		B6191908298E68DC00BD6333 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6191907298E68DC00BD6333 /* SearchViewController.swift */; };
 		B619190A298E95E700BD6333 /* SearchResultsTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */; };
 		B619190C298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B619190B298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B60F4DE72996D8040038D934 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B6191907298E68DC00BD6333 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewManager.swift; sourceTree = "<group>"; };
 		B619190B298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				B698097A2994470D002FCCCF /* LanguageButton.swift */,
 				B698097E299470ED002FCCCF /* LangOptionButton.swift */,
 				B619190B298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift */,
+				B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,6 +101,7 @@
 		B678F779298BE91300E1771C = {
 			isa = PBXGroup;
 			children = (
+				B60F4DE72996D8040038D934 /* README.md */,
 				B678F784298BE91300E1771C /* Anagram Solver */,
 				B678F783298BE91300E1771C /* Products */,
 			);
@@ -116,21 +120,14 @@
 			children = (
 				B6FB24E1299060B50065CE6F /* App */,
 				B61D70EF298F07DE00C0AD10 /* Views */,
-				B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */,
 				B698098C29955DD1002FCCCF /* Interactor */,
 				B698098D29955DE5002FCCCF /* Presenters */,
 				B698097929942C51002FCCCF /* Entities */,
 				B698098E29955DFE002FCCCF /* Routers */,
-				B61D70ED298F06F600C0AD10 /* AnagramSolverAssembly.swift */,
 				B6980976299429F2002FCCCF /* Extensions */,
 				B678F79D298BEEB600E1771C /* NetworkServices */,
-				B678F78E298BE91500E1771C /* Assets.xcassets */,
-				B678F790298BE91500E1771C /* LaunchScreen.storyboard */,
 				B678F793298BE91500E1771C /* Info.plist */,
-				B698098229950E66002FCCCF /* myRussianJSONDict.json */,
-				B698098429953208002FCCCF /* myGermanJSONDict.json */,
-				B698098829954E47002FCCCF /* myFrenchJSONDict.json */,
-				B698098A299556AE002FCCCF /* mySpanishJSONDict.json */,
+				B69CC4822996D13000A0547E /* AppData */,
 			);
 			path = "Anagram Solver";
 			sourceTree = "<group>";
@@ -189,9 +186,23 @@
 			path = Routers;
 			sourceTree = "<group>";
 		};
+		B69CC4822996D13000A0547E /* AppData */ = {
+			isa = PBXGroup;
+			children = (
+				B678F790298BE91500E1771C /* LaunchScreen.storyboard */,
+				B678F78E298BE91500E1771C /* Assets.xcassets */,
+				B698098229950E66002FCCCF /* myRussianJSONDict.json */,
+				B698098429953208002FCCCF /* myGermanJSONDict.json */,
+				B698098829954E47002FCCCF /* myFrenchJSONDict.json */,
+				B698098A299556AE002FCCCF /* mySpanishJSONDict.json */,
+			);
+			path = AppData;
+			sourceTree = "<group>";
+		};
 		B6FB24E1299060B50065CE6F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				B61D70ED298F06F600C0AD10 /* AnagramSolverAssembly.swift */,
 				B678F785298BE91300E1771C /* AppDelegate.swift */,
 				B678F787298BE91300E1771C /* SceneDelegate.swift */,
 				B61D70F4298F891300C0AD10 /* AppInteractor.swift */,
@@ -261,6 +272,7 @@
 				B678F792298BE91500E1771C /* LaunchScreen.storyboard in Resources */,
 				B678F78F298BE91500E1771C /* Assets.xcassets in Resources */,
 				B698098329950E66002FCCCF /* myRussianJSONDict.json in Resources */,
+				B60F4DE82996D8040038D934 /* README.md in Resources */,
 				B698098929954E47002FCCCF /* myFrenchJSONDict.json in Resources */,
 				B698098B299556AE002FCCCF /* mySpanishJSONDict.json in Resources */,
 				B698098529953208002FCCCF /* myGermanJSONDict.json in Resources */,
