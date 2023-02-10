@@ -35,8 +35,9 @@ class HomeViewController: UIViewController {
     private let searchView: UIView = {
         let view = UIView(frame: .zero)
         view.layer.cornerRadius = 12
-        view.layer.borderWidth = 1.5
-        view.layer.backgroundColor = UIColor.secondarySystemBackground.cgColor
+        view.layer.borderWidth = 0
+//        view.layer.backgroundColor = AppColors.searchBarColor?.cgColor
+        view.backgroundColor = AppColors.searchBarColor
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -45,19 +46,21 @@ class HomeViewController: UIViewController {
     private let searchViewButton: UIButton = {
         let button = UIButton(frame: .zero)
         button.setTitle("Tap to search", for: .normal)
-        button.setTitleColor(UIColor.systemGray, for: .normal)
+        button.setTitleColor(AppColors.searchBarPlaceholderColor, for: .normal)
         button.titleLabel?.font = UIFont(name: "Chalkduster", size: 17)
         button.titleLabel?.textAlignment = .right
+//        button.layer.backgroundColor = AppColors.searchBarColor?.cgColor
+        button.backgroundColor = .clear
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private let appLabel: UILabel = {
         let label = UILabel(frame: .zero)
-        label.text = "ANAGRAMS\n FinDer"
+        label.text = "ANAGRAMS\n SOLVER"
         label.numberOfLines = 0
         label.textAlignment = .center
-        label.textColor  = .systemPurple
+        label.textColor  = AppColors.appNameColor
         label.font = UIFont(name: "Bradley Hand", size: 40)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -67,7 +70,9 @@ class HomeViewController: UIViewController {
         let imageView = UIImageView(frame: .zero)
         imageView.image = UIImage(systemName: "magnifyingglass")
         imageView.image?.withTintColor(.systemGray5)
-        imageView.tintColor = .systemGray
+        imageView.tintColor = AppColors.searchBarPlaceholderColor
+//        imageView.layer.backgroundColor = AppColors.searchBarColor?.cgColor
+        imageView.backgroundColor = .clear
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -75,6 +80,8 @@ class HomeViewController: UIViewController {
     
     private let languageSelectButton: LangOptionButton = {
         let button = LangOptionButton(withViewModel: .english)
+        button.tintColor = AppColors.searchBarPlaceholderColor
+        button.languageTitlelabel.textColor = AppColors.searchBarPlaceholderColor
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -139,24 +146,28 @@ class HomeViewController: UIViewController {
         languageSelectButton.updateButtonUI(withViewModel: language)
         searchViewButton.setTitle(language.homeVCString, for: .normal)
         buttonStackView.isHidden = true
+        languageSelectButton.changeArrowType()
     }
     @objc private func didSelectGerman(){
         language = .german
         languageSelectButton.updateButtonUI(withViewModel: language)
         searchViewButton.setTitle(language.homeVCString, for: .normal)
         buttonStackView.isHidden = true
+        languageSelectButton.changeArrowType()
     }
     @objc private func didSelectEnglish(){
         language = .english
         languageSelectButton.updateButtonUI(withViewModel: language)
         searchViewButton.setTitle(language.homeVCString, for: .normal)
         buttonStackView.isHidden = true
+        languageSelectButton.changeArrowType()
     }
     @objc private func didSelectRussian(){
         language = .russian
         languageSelectButton.updateButtonUI(withViewModel: language)
         searchViewButton.setTitle(language.homeVCString, for: .normal)
         buttonStackView.isHidden = true
+        languageSelectButton.changeArrowType()
 //        languageSelectButton.iconImageView.image = UIImage(named: language.parameters.imageName)
     }
     @objc private func didSelectSpanish(){
@@ -164,22 +175,26 @@ class HomeViewController: UIViewController {
         languageSelectButton.updateButtonUI(withViewModel: language)
         searchViewButton.setTitle(language.homeVCString, for: .normal)
         buttonStackView.isHidden = true
+        languageSelectButton.changeArrowType()
     }
     @objc private func didSelectFrench(){
         language = .french
         languageSelectButton.updateButtonUI(withViewModel: language)
         searchViewButton.setTitle(language.homeVCString, for: .normal)
         buttonStackView.isHidden = true
+        languageSelectButton.changeArrowType()
 //        languageSelectButton.layoutSubviews()
     }
     @objc private func didTapSelectLanguage() {
-        buttonStackView.isHidden = false
+        languageSelectButton.changeArrowType()
+        
+        buttonStackView.isHidden = !buttonStackView.isHidden
     }
     
     
     
     private func setUpUI() {
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = AppColors.homeScreenBackground
         addSubViews()
         setFramesAndConstraints()
     }

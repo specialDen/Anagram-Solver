@@ -56,6 +56,7 @@ extension SearchResultsTableViewManager: UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") else {return UITableViewCell()}
         cell.textLabel?.text = wordlist[section].description
         cell.textLabel?.font = UIFont(name: "Hoefler Text", size: 17)
+        cell.textLabel?.textColor = AppColors.appNameColor
         return cell
     }
     
@@ -69,6 +70,8 @@ extension SearchResultsTableViewManager: UITableViewDataSource {
         cell.textLabel?.text = wordString
         cell.textLabel?.numberOfLines = 0
         cell.textLabel?.font = UIFont(name: "Hoefler Text", size: 17)
+        cell.textLabel?.textColor = AppColors.searchBarPlaceholderColor
+        cell.backgroundColor = AppColors.resultsCellColor
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

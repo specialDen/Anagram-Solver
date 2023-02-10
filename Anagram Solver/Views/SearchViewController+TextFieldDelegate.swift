@@ -13,7 +13,7 @@ extension SearchViewController: UITextFieldDelegate {
                 !searchString.isEmpty else {return false}
         presenter?.viewNeedsWordData(forSearchString: searchString, language: language)
         searchBarTextField.resignFirstResponder()
-        
         return true
     }
+    
 }

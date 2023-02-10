@@ -31,10 +31,11 @@
 		B698097F299470ED002FCCCF /* LangOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698097E299470ED002FCCCF /* LangOptionButton.swift */; };
 		B6980981299482E5002FCCCF /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6980980299482E5002FCCCF /* ArrayExtensions.swift */; };
 		B698098329950E66002FCCCF /* myRussianJSONDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098229950E66002FCCCF /* myRussianJSONDict.json */; };
-		B698098529953208002FCCCF /* myGermanJsonDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098429953208002FCCCF /* myGermanJsonDict.json */; };
+		B698098529953208002FCCCF /* myGermanJSONDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098429953208002FCCCF /* myGermanJSONDict.json */; };
 		B6980987299545E3002FCCCF /* LanguagesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6980986299545E3002FCCCF /* LanguagesEnum.swift */; };
 		B698098929954E47002FCCCF /* myFrenchJSONDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098829954E47002FCCCF /* myFrenchJSONDict.json */; };
 		B698098B299556AE002FCCCF /* mySpanishJSONDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B698098A299556AE002FCCCF /* mySpanishJSONDict.json */; };
+		B69CC48129969D3700A0547E /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69CC48029969D3700A0547E /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,10 +65,11 @@
 		B698097E299470ED002FCCCF /* LangOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangOptionButton.swift; sourceTree = "<group>"; };
 		B6980980299482E5002FCCCF /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		B698098229950E66002FCCCF /* myRussianJSONDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myRussianJSONDict.json; sourceTree = "<group>"; };
-		B698098429953208002FCCCF /* myGermanJsonDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myGermanJsonDict.json; sourceTree = "<group>"; };
+		B698098429953208002FCCCF /* myGermanJSONDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myGermanJSONDict.json; sourceTree = "<group>"; };
 		B6980986299545E3002FCCCF /* LanguagesEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesEnum.swift; sourceTree = "<group>"; };
 		B698098829954E47002FCCCF /* myFrenchJSONDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myFrenchJSONDict.json; sourceTree = "<group>"; };
 		B698098A299556AE002FCCCF /* mySpanishJSONDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mySpanishJSONDict.json; sourceTree = "<group>"; };
+		B69CC48029969D3700A0547E /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +128,7 @@
 				B678F790298BE91500E1771C /* LaunchScreen.storyboard */,
 				B678F793298BE91500E1771C /* Info.plist */,
 				B698098229950E66002FCCCF /* myRussianJSONDict.json */,
-				B698098429953208002FCCCF /* myGermanJsonDict.json */,
+				B698098429953208002FCCCF /* myGermanJSONDict.json */,
 				B698098829954E47002FCCCF /* myFrenchJSONDict.json */,
 				B698098A299556AE002FCCCF /* mySpanishJSONDict.json */,
 			);
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				B61D70E9298EFC6300C0AD10 /* Entity.swift */,
+				B69CC48029969D3700A0547E /* AppColors.swift */,
 				B6980986299545E3002FCCCF /* LanguagesEnum.swift */,
 				B698097729942C20002FCCCF /* AnagramSolverBrain.swift */,
 			);
@@ -260,7 +263,7 @@
 				B698098329950E66002FCCCF /* myRussianJSONDict.json in Resources */,
 				B698098929954E47002FCCCF /* myFrenchJSONDict.json in Resources */,
 				B698098B299556AE002FCCCF /* mySpanishJSONDict.json in Resources */,
-				B698098529953208002FCCCF /* myGermanJsonDict.json in Resources */,
+				B698098529953208002FCCCF /* myGermanJSONDict.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +279,7 @@
 				B698097829942C20002FCCCF /* AnagramSolverBrain.swift in Sources */,
 				B678F78A298BE91300E1771C /* HomeViewController.swift in Sources */,
 				B698097F299470ED002FCCCF /* LangOptionButton.swift in Sources */,
+				B69CC48129969D3700A0547E /* AppColors.swift in Sources */,
 				B619190A298E95E700BD6333 /* SearchResultsTableViewManager.swift in Sources */,
 				B6980987299545E3002FCCCF /* LanguagesEnum.swift in Sources */,
 				B61D70EE298F06F600C0AD10 /* AnagramSolverAssembly.swift in Sources */,

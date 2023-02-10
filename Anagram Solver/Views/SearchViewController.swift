@@ -30,6 +30,8 @@ class SearchViewController:UIViewController {
         let textField = UITextField(frame: .zero)
         textField.font = UIFont(name: "Hoefler Text", size: 17)
         textField.placeholder  = "Type in not more than 9 letters"
+//        textField.tintColor = AppColors.searchBarPlaceholderColor
+        textField.backgroundColor = AppColors.searchBarColor
         textField.translatesAutoresizingMaskIntoConstraints = false
         return textField
     }()
@@ -37,8 +39,8 @@ class SearchViewController:UIViewController {
     private let searchBarView: UIView = {
         let view = UIView(frame: .zero)
         view.layer.cornerRadius = 12
-        view.layer.borderWidth = 1.5
-        view.layer.backgroundColor = UIColor.systemFill.cgColor
+        view.layer.borderWidth = 0
+        view.backgroundColor = AppColors.searchBarColor
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -46,7 +48,8 @@ class SearchViewController:UIViewController {
     private let backButton: UIButton = {
         let button = UIButton(frame: .zero)
         button.setImage(UIImage(systemName: "arrow.backward"), for: .normal)
-        button.tintColor = .systemGray
+        button.tintColor = AppColors.searchBarPlaceholderColor
+        button.backgroundColor = .clear
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -54,14 +57,15 @@ class SearchViewController:UIViewController {
     private let searchButton: UIButton = {
         let button = UIButton(frame: .zero)
         button.setImage(UIImage(systemName: "xmark.circle"), for: .normal)
-        button.tintColor = .systemGray
+        button.tintColor = AppColors.searchBarPlaceholderColor
+        button.backgroundColor = .clear
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private let tableView: UITableView = {
         let table = UITableView(frame: .zero)
-        table.backgroundColor = .systemBackground
+        table.backgroundColor = AppColors.homeScreenBackground
         table.translatesAutoresizingMaskIntoConstraints = false
         return table
     }()
@@ -75,7 +79,7 @@ class SearchViewController:UIViewController {
     }
     
     private func setUpUI() {
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = AppColors.homeScreenBackground
         addSubviews()
         setFramesAndConstraints()
         presenter?.tableViewManager?.setUpTableView(tableView: tableView)

@@ -29,7 +29,7 @@ struct AnagramSolverBrain {
             
             for length in 1...searchString.count {
                 guard let searchArray = words?[length] else {continue}
-                let lookUpResults = lookUp(lookUpString: searchString, searchArray: searchArray ?? [])
+                let lookUpResults = lookUp(lookUpString: searchString, searchArray: searchArray)
                 if !lookUpResults.isEmpty {
                     anagrams.append(contentsOf: lookUpResults)
                 }

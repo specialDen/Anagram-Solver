@@ -14,6 +14,8 @@ class LangOptionButton: UIButton {
     }
 
     var viewModel:LanguageButtonModel? = nil
+    var isArrowDown:Bool  = true
+
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -57,6 +59,16 @@ class LangOptionButton: UIButton {
 
         iconImageView.image = UIImage(named: viewModel!.imageName)
         languageTitlelabel.text = viewModel?.titleString
+        
+    }
+    
+    func changeArrowType(){
+        if !isArrowDown {
+            listIconImageView.image = UIImage(systemName: "chevron.down")
+        } else {
+            listIconImageView.image = UIImage(systemName: "chevron.up")
+        }
+        isArrowDown = !isArrowDown
         
     }
     
