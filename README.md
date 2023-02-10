@@ -13,21 +13,19 @@
 ## General info
 Anagram Solver is an app that finds the possible words(Anagrams) that can be formed from the user provided search word. It's a great tool for solving anagram games.
 
-## Setup:
+## Setup
 No setup required. Ready for use.
 
-3. Run app
 
 ## Screenshots
 
 | Light Mode             |  Dark Mode |
 :-------------------------:|:-------------------------:
-![Example-Movie1](./MovieApp/Readme/movieApp_movie1.gif)
-![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolverScreenshot_1.png)  |  ![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolverScreenshot_2.png)
-![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolverScreenshot_3.png)  |  ![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolverScreenshot_4.png)
+![Example-Screenshot1](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_1.png)  |  ![Example-Screenshot3](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_2.png)
+![Example-Screenshot3](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_3.png)  |  ![Example-Screenshot4](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_4.png)
 
-![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolver_1.gif)
-![Anagram Solver](./Anagram Solver/ReadmeFiles/AnagramSolver_1.gif)
+![Example-Movie1](./Anagram_Solver/ReadmeFiles/AnagramSolver_1.gif)
+![Example-Movie1](./Anagram_Solver/ReadmeFiles/AnagramSolver_1.gif)
 
 
 ## Technologies
