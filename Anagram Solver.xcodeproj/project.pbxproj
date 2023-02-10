@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B60F4DE82996D8040038D934 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B60F4DE72996D8040038D934 /* README.md */; };
+		B60F4DED2996E8D10038D934 /* AnagramSolver_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = B60F4DEC2996E8D10038D934 /* AnagramSolver_1.gif */; };
+		B60F4DEF2996E8D80038D934 /* AnagramSolver_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B60F4DEE2996E8D80038D934 /* AnagramSolver_2.gif */; };
+		B60F4DF12996E9420038D934 /* AnagramSolverScreenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B60F4DF02996E9420038D934 /* AnagramSolverScreenshot_1.png */; };
+		B60F4DF32996E9570038D934 /* AnagramSolverScreenshot_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B60F4DF22996E9570038D934 /* AnagramSolverScreenshot_2.png */; };
+		B60F4DF62996E9650038D934 /* AnagramSolverScreenshot_3.png in Resources */ = {isa = PBXBuildFile; fileRef = B60F4DF42996E9650038D934 /* AnagramSolverScreenshot_3.png */; };
+		B60F4DF72996E9650038D934 /* AnagramSolverScreenshot_4.png in Resources */ = {isa = PBXBuildFile; fileRef = B60F4DF52996E9650038D934 /* AnagramSolverScreenshot_4.png */; };
 		B6191908298E68DC00BD6333 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6191907298E68DC00BD6333 /* SearchViewController.swift */; };
 		B619190A298E95E700BD6333 /* SearchResultsTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */; };
 		B619190C298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B619190B298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift */; };
@@ -41,6 +47,12 @@
 
 /* Begin PBXFileReference section */
 		B60F4DE72996D8040038D934 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B60F4DEC2996E8D10038D934 /* AnagramSolver_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AnagramSolver_1.gif; sourceTree = "<group>"; };
+		B60F4DEE2996E8D80038D934 /* AnagramSolver_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AnagramSolver_2.gif; sourceTree = "<group>"; };
+		B60F4DF02996E9420038D934 /* AnagramSolverScreenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnagramSolverScreenshot_1.png; sourceTree = "<group>"; };
+		B60F4DF22996E9570038D934 /* AnagramSolverScreenshot_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnagramSolverScreenshot_2.png; sourceTree = "<group>"; };
+		B60F4DF42996E9650038D934 /* AnagramSolverScreenshot_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnagramSolverScreenshot_3.png; sourceTree = "<group>"; };
+		B60F4DF52996E9650038D934 /* AnagramSolverScreenshot_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnagramSolverScreenshot_4.png; sourceTree = "<group>"; };
 		B6191907298E68DC00BD6333 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B6191909298E95E700BD6333 /* SearchResultsTableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewManager.swift; sourceTree = "<group>"; };
 		B619190B298E980F00BD6333 /* SearchViewController+TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewController+TextFieldDelegate.swift"; sourceTree = "<group>"; };
@@ -85,6 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60F4DE92996E67A0038D934 /* ReadmeFIles */ = {
+			isa = PBXGroup;
+			children = (
+				B60F4DEC2996E8D10038D934 /* AnagramSolver_1.gif */,
+				B60F4DEE2996E8D80038D934 /* AnagramSolver_2.gif */,
+				B60F4DF02996E9420038D934 /* AnagramSolverScreenshot_1.png */,
+				B60F4DF22996E9570038D934 /* AnagramSolverScreenshot_2.png */,
+				B60F4DF42996E9650038D934 /* AnagramSolverScreenshot_3.png */,
+				B60F4DF52996E9650038D934 /* AnagramSolverScreenshot_4.png */,
+			);
+			path = ReadmeFIles;
+			sourceTree = "<group>";
+		};
 		B61D70EF298F07DE00C0AD10 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +150,7 @@
 				B698097929942C51002FCCCF /* Entities */,
 				B698098E29955DFE002FCCCF /* Routers */,
 				B6980976299429F2002FCCCF /* Extensions */,
+				B60F4DE92996E67A0038D934 /* ReadmeFIles */,
 				B678F79D298BEEB600E1771C /* NetworkServices */,
 				B678F793298BE91500E1771C /* Info.plist */,
 				B69CC4822996D13000A0547E /* AppData */,
@@ -270,12 +296,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B678F792298BE91500E1771C /* LaunchScreen.storyboard in Resources */,
+				B60F4DED2996E8D10038D934 /* AnagramSolver_1.gif in Resources */,
 				B678F78F298BE91500E1771C /* Assets.xcassets in Resources */,
+				B60F4DF72996E9650038D934 /* AnagramSolverScreenshot_4.png in Resources */,
 				B698098329950E66002FCCCF /* myRussianJSONDict.json in Resources */,
 				B60F4DE82996D8040038D934 /* README.md in Resources */,
 				B698098929954E47002FCCCF /* myFrenchJSONDict.json in Resources */,
+				B60F4DF62996E9650038D934 /* AnagramSolverScreenshot_3.png in Resources */,
+				B60F4DF12996E9420038D934 /* AnagramSolverScreenshot_1.png in Resources */,
+				B60F4DEF2996E8D80038D934 /* AnagramSolver_2.gif in Resources */,
 				B698098B299556AE002FCCCF /* mySpanishJSONDict.json in Resources */,
 				B698098529953208002FCCCF /* myGermanJSONDict.json in Resources */,
+				B60F4DF32996E9570038D934 /* AnagramSolverScreenshot_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
