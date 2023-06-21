@@ -10,7 +10,6 @@ import UIKit
 protocol AnagramSolverPresenterProtocol: AnyObject{
     var interactor: AnagramSolverInteractorProtocol?{get}
     var router: AnagramSolverRouterProtocol? { get }
-//    var searchVC: SearchViewController? {get}
     func viewNeedsSecondScreen(presentingVC: UIViewController, language: LanguagesEnum)
     func viewNeedsWordData(forSearchString searchString: String, language: LanguagesEnum)
     var tableViewManager: SearchResultsTableViewManagerProtocol? {get}
@@ -30,7 +29,6 @@ final class AnagramSolverPresenter: AnagramSolverPresenterProtocol {
     var language: LanguagesEnum = .english
     var router: AnagramSolverRouterProtocol?
     var tableViewManager: SearchResultsTableViewManagerProtocol?
-//     var searchVC: SearchViewController?
     var interactor: AnagramSolverInteractorProtocol?
     
     func viewNeedsWordData(forSearchString searchString: String, language: LanguagesEnum) {

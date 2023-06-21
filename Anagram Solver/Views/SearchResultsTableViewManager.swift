@@ -46,12 +46,15 @@ extension SearchResultsTableViewManager: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         1
     }
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return wordlist.count
     }
+    
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return wordlist[section].description
     }
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") else {return UITableViewCell()}
         cell.textLabel?.text = wordlist[section].description
@@ -59,7 +62,6 @@ extension SearchResultsTableViewManager: UITableViewDataSource {
         cell.textLabel?.textColor = AppColors.appNameColor
         return cell
     }
-    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") else {return UITableViewCell()}
@@ -74,12 +76,15 @@ extension SearchResultsTableViewManager: UITableViewDataSource {
         cell.backgroundColor = AppColors.resultsCellColor
         return cell
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
     }
+    
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         25
     }
+    
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         0
     }

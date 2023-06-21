@@ -14,7 +14,6 @@ struct AnagramSolverBrain {
     
     init(language: LanguagesEnum) {
         wordsDict = getWordDict(fromFile: language.fileDirectory)
-//        findAnagrams(of : "братан")
     }
     
     func findAnagrams(of searchString: String) -> [String] {

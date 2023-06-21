@@ -138,7 +138,7 @@ class HomeViewController: UIViewController {
     
     
     @objc private func didSelectItalian(){
-        language = .english
+        language = .italian
         languageSelectButton.updateButtonUI(withViewModel: language)
         searchViewButton.setTitle(language.homeVCString, for: .normal)
         buttonStackView.isHidden = true

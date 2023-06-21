@@ -81,7 +81,7 @@ enum LanguagesEnum {
         case .french:
             return "myFrenchJSONDict.json"
         case .italian:
-            return ""
+            return "myItalianJSONDict.json"
         case .spanish:
             return "mySpanishJSONDict.json"
         }

@@ -3,8 +3,8 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Setup](#Setup)
+* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Status](#status)
@@ -13,21 +13,24 @@
 ## General info
 Anagram Solver is an app that finds the possible words(Anagrams) that can be formed from the user provided search word. It's a great tool for solving anagram games.
 
+
 ## Setup:
+
 No setup required. Ready for use.
 
-3. Run app
 
 ## Screenshots
 
 | Light Mode             |  Dark Mode |
 :-------------------------:|:-------------------------:
-![Example-Screenshot1](./AnagramSolver/ReadmeFiles/AnagramSolverScreenshot_1.png)  |  ![Example-Screenshot3](./Anagram_Solver/ReadmeFiles/AnagramSolverScreenshot_2.png)
-![Example-Screenshot3](./AnagramSolver/ReadmeFiles/AnagramSolverScreenshot_3.png)  |  ![Example-Screenshot4](./AnagramSolver/ReadmeFiles/AnagramSolverScreenshot_4.png)
+<img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolverScreenshot_1.png"  width="50%" height="50%">  |  <img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolverScreenshot_2.png"  width="50%" height="50%">
+<img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolverScreenshot_3.png"  width="50%" height="50%">  |  <img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolverScreenshot_4.png"  width="50%" height="50%">
 
-![Example-Movie1](./AnagramSolver/ReadmeFiles/AnagramSolver_1.gif)
-![Example-Movie2](./AnagramSolver/ReadmeFiles/AnagramSolver_1.gif)
-
+<p align="center">
+<img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolver_1.gif"  width="25%" height="25%" />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<img src="https://github.com/specialDen/Anagram-Solver/blob/main/Anagram%20Solver/ReadmeFIles/AnagramSolver_2.gif"  width="25%" height="25%" />
+</p>
 
 ## Technologies
 * Xcode 14.0
@@ -47,11 +50,9 @@ List of features ready and TODOs for future development
 * Colorful UI
 
 
-To-do list:
-* Add Italian mode
 
 ## Status
-Project is: _in progress_
+Project is: _complete_
 
 ## Contact
 Created by [@specialDen](https://github.com/specialDen)- feel free to contact me!

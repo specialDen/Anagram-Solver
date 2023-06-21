@@ -24,6 +24,7 @@
 		B61D70F3298F7BFC00C0AD10 /* AnagramSolverRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70F2298F7BFC00C0AD10 /* AnagramSolverRouter.swift */; };
 		B61D70F5298F891300C0AD10 /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70F4298F891300C0AD10 /* AppInteractor.swift */; };
 		B61D70F7298F895700C0AD10 /* AppCordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61D70F6298F895700C0AD10 /* AppCordinator.swift */; };
+		B62FA86C2A42F6120066E7E6 /* myItalianJSONDict.json in Resources */ = {isa = PBXBuildFile; fileRef = B62FA86B2A42F6120066E7E6 /* myItalianJSONDict.json */; };
 		B678F786298BE91300E1771C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F785298BE91300E1771C /* AppDelegate.swift */; };
 		B678F788298BE91300E1771C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F787298BE91300E1771C /* SceneDelegate.swift */; };
 		B678F78A298BE91300E1771C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678F789298BE91300E1771C /* HomeViewController.swift */; };
@@ -63,6 +64,7 @@
 		B61D70F2298F7BFC00C0AD10 /* AnagramSolverRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnagramSolverRouter.swift; sourceTree = "<group>"; };
 		B61D70F4298F891300C0AD10 /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 		B61D70F6298F895700C0AD10 /* AppCordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCordinator.swift; sourceTree = "<group>"; };
+		B62FA86B2A42F6120066E7E6 /* myItalianJSONDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myItalianJSONDict.json; sourceTree = "<group>"; };
 		B678F782298BE91300E1771C /* AnagramSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnagramSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B678F785298BE91300E1771C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B678F787298BE91300E1771C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				B698098429953208002FCCCF /* myGermanJSONDict.json */,
 				B698098829954E47002FCCCF /* myFrenchJSONDict.json */,
 				B698098A299556AE002FCCCF /* mySpanishJSONDict.json */,
+				B62FA86B2A42F6120066E7E6 /* myItalianJSONDict.json */,
 			);
 			path = AppData;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				B60F4DF62996E9650038D934 /* AnagramSolverScreenshot_3.png in Resources */,
 				B60F4DF12996E9420038D934 /* AnagramSolverScreenshot_1.png in Resources */,
 				B60F4DEF2996E8D80038D934 /* AnagramSolver_2.gif in Resources */,
+				B62FA86C2A42F6120066E7E6 /* myItalianJSONDict.json in Resources */,
 				B698098B299556AE002FCCCF /* mySpanishJSONDict.json in Resources */,
 				B698098529953208002FCCCF /* myGermanJSONDict.json in Resources */,
 				B60F4DF32996E9570038D934 /* AnagramSolverScreenshot_2.png in Resources */,

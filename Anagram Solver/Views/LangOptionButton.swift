@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LangOptionButton: UIButton {
+final class LangOptionButton: UIButton {
     override func layoutSubviews() {
         super.layoutSubviews()
         setFramesAndConstraints()
@@ -68,7 +68,7 @@ class LangOptionButton: UIButton {
         } else {
             listIconImageView.image = UIImage(systemName: "chevron.up")
         }
-        isArrowDown = !isArrowDown
+        isArrowDown.toggle()
         
     }
     
@@ -76,19 +76,20 @@ class LangOptionButton: UIButton {
         self.viewModel  = viewModel.parameters
         iconImageView.image = UIImage(named: viewModel.parameters.imageName)
         languageTitlelabel.text = viewModel.parameters.titleString
-        reloadInputViews()
     }
     
     private func setFramesAndConstraints(){
         
         let height = frame.size.height
-        let width = frame.size.width/3
+        let width = frame.size.width / 3
 
         languageTitlelabel.frame = CGRect(x: 0, y: 0, width: width, height: height)
         iconImageView.frame = CGRect(x: width, y: 0, width: width, height: height)
-        listIconImageView.frame = CGRect(x: 2.1*width, y: 0.3*height, width: width*0.6, height: 0.5*height)
+        listIconImageView.frame = CGRect(
+            x: 2.1 * width,
+            y: 0.3 * height,
+            width: width * 0.6, height: 0.5 * height
+        )
         
     }
-    
-    
 }

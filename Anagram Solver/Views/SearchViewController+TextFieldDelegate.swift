@@ -9,8 +9,11 @@ import UIKit
 
 extension SearchViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        guard let searchString = textField.text,
-                !searchString.isEmpty else {return false}
+        guard
+            let searchString = textField.text,
+            !searchString.isEmpty
+        else { return false }
+        
         presenter?.viewNeedsWordData(forSearchString: searchString, language: language)
         searchBarTextField.resignFirstResponder()
         return true
